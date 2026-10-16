@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>World Map Explorer</title>
+</head>
+
+<body>
+
+    <h1>World Map Explorer</h1>
+
+    <p>
+        Click on different countries on the map to learn more about them.
+    </p>
+
+    
+    <img src="images/world-map.png"
+         alt="World Map"
+         width="618"
+         height="495"
+         usemap="#worldmap">
+
+    <map name="worldmap">
+
+        <area shape="circle"
+              coords="404,234,26"
+              href="https://en.wikipedia.org/wiki/India"
+              alt="India"
+              target="_blank">
+
+        <area shape="rect"
+              coords="66,132,169,211"
+              href="https://en.wikipedia.org/wiki/United_States"
+              alt="United States"
+              target="_blank">
+
+        <area shape="poly"
+              coords="129,271,146,251,181,254,205,279,219,307,212,335,202,357,191,385,174,388,164,363,150,340,139,312"
+              href="https://en.wikipedia.org/wiki/Brazil"
+              alt="Brazil"
+              target="_blank">
+
+        <area shape="rect"
+              coords="473,333,548,415"
+              href="https://en.wikipedia.org/wiki/Australia"
+              alt="Australia"
+              target="_blank">
+
+        <area shape="default"
+              href="https://en.wikipedia.org/wiki/World"
+              alt="World Map"
+              target="_blank">
+
+    </map>
+
+    <hr>
+
+    <h2>Clickable Regions</h2>
+
+    <ul>
+        <li>India - Circle</li>
+        <li>United States - Rectangle</li>
+        <li>Brazil - Polygon</li>
+        <li>Australia - Rectangle</li>
+        <li>Other Areas - Default</li>
+    </ul>
+
+</body>
+
+</html>
